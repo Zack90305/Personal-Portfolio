@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<title>ZWashSolutions</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel = "stylesheet" href = "portfolioStyles.css">
+		<script src = "portfolioStyles.js"></script>
+	</head>
+
+	<body>
+	
+		<div role = "navigation" id = "navigation">
+			<ul class="nav nav-tabs">
+				<li role="presentation" id = "aboutLink"><a href="#about">About</a></li>
+				<li role="presentation" id = "portfolioLink"><a href="#portfolio" id = "portfolioLink">Portfolio</a></li>
+				<li role="presentation" id = "contactLink"><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+		
+		<div id = "content" class = "container">
+			<div class = "row" id = "about">
+				<div class = "col-xs-12" style = "padding: 30px 30px 0px 0px;">
+					<p style = "font-size: 1.5em; font-weight: bold; font-family: Serif;" class = "col-xs-8 blockquote-reverse" id = "about-text">Working to tighten up my web development skills through freelance projects. Three years of experience in various programming languages, several years of practical experience in assignment oriented team management and client relations.</p>
+					<img src = "https://image.ibb.co/jOD7pw/facePic.png" alt = "Zack Washington" style = "max-width: 20%; height: auto;" class = "img-circle img-responsive pull-right">
+				</div>
+				
+				<div>
+					<p style = "font-size: 2em; font-weight: bold; font-family: Serif;" class = "col-xs-12" id = "about-text">Web Designer ~ Student</p>
+				</div>
+			</div>
+			
+			<div class = "row" id = "portfolio">
+				<div class = "col-xs-12" style = "padding: 30px 30px 0px 0px;">
+					<h1 class = "text-center">PORTFOLIO</h1>
+					<div class = container>
+						<a href = "https://codepen.io/Zack1707/full/QqMEoM/"><img src = "https://image.ibb.co/eKtq9w/Quote_Machine.jpg" alt="Quote Machine" class = "pull-left img-responsive col-xs-4"></a>
+						<a href = "https://drive.google.com/drive/u/0/folders/0ByKneYZ4BavafmZPVHNWTTI2UG1pbXp2MFgwWUZMY1ZhQlEzZF82cjNQcXRLb3VEcVZHR0k"><img src = "https://image.ibb.co/gVvPXG/GDrive.png" alt="Google Drive" class = "pull-right img-responsive col-xs-4"></a>
+						<a href = "https://codepen.io/Zack1707/full/LeWqvm/"><img src = "https://image.ibb.co/hDzRGm/Weather_API.png" alt="Weather Forecast" class = "pull-left img-responsive col-xs-4"></a>
+						<img src = "https://image.ibb.co/hiiU2G/placeholder.png" alt="Placeholder" class = "pull-right img-responsive col-xs-4">
+						<img src = "https://image.ibb.co/hiiU2G/placeholder.png" alt="Placeholder" class = "pull-left img-responsive col-xs-4">
+						<img src = "https://image.ibb.co/hiiU2G/placeholder.png" alt="Placeholder" class = "pull-right img-responsive col-xs-4">
+					</div>
+				</div>
+			</div>
+		</div>
+	  
+		<div class = "container" id = "contact">
+			<div class = "col-xs-12" style = "padding: 30px 30px 0p 0px">
+				<h1 class = "text-center">CONTACT</h1>
+				<p class = "pull-right col-xs-6" style = "font-size: 1.5em;">I can be contacted from the form on the left. I'm more than receptive to a resume request or work inquiry.</p>
+				<form class = "form-vertical col-xs-6" action="https://formspree.io/zack90305@yahoo.com" method="POST">
+			   
+			   <div class = "form-group">
+				<label class = "control-label" for = "firstName">First Name:</label>
+				  <input name = "firstName" type = "text" class = "form-control" id = "firstName" maxlength = "20">
+			   </div>
+			   
+			   <div class = "form-group"> 
+				<label class = "control-label" for = "lastName">Last Name:</label>
+				  <input name = "lastName" type = "text" class = "form-control" id = "lastName" maxlength = "20">
+			   </div>
+				
+			   <div class = "form-group">
+				<label class = "control-label" for = "e-Mail">e-Mail:</label>
+				  <input name = "_replyto" type = "email" class = "form-control" id = "e-Mail" maxlength = "30">
+			   </div>
+			  
+			   <div class = "form-group" id="phoneNumber">
+				<label class = "control-label" for = "phoneNumber">Phone Number:</label>
+				  <input name = "phoneNumber" type = "text" id = "phoneNumber" class = "form-control" maxlength = 10 placeholder = "##########">
+			   </div>
+			   
+			   <div class = "form-group">
+				<label class = "control-label" for = "message">Message:</label>
+			 <textarea name = "message" class = "form-control" id = "message"></textarea>
+			   </div>
+			   
+					<button type="submit" class="btn btn-default">Submit</button>
+				</form>
+			</div>
+		</div>
+	  
+		<div class = "row" id = "web">
+			<div class = "text-center">
+				<a href = "https://www.facebook.com/zack.washington.35"><img src = "https://image.ibb.co/j35npw/Facebook.png" alt = "facebook-link" height = "40px" width = "auto"></a>
+				<a href = "https://github.com/Zack90305"><img src = "https://image.ibb.co/fi3whG/GitHub.png" alt = "github-link" height = "40px" width = "auto"></a>
+				<a href = "https://www.linkedin.com/in/zwashington/"><img src = "https://image.ibb.co/bRbhNG/LinkedIn.png" height = "40px" width = "auto"></a>
+			</div>
+		</div>
+	</body>
+</html>

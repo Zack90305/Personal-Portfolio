@@ -1,0 +1,38 @@
+body {
+  background-color: #99986F;
+}
+
+#navigation {
+  background-color: #755b33;
+}
+
+#about {
+  background-color: #3b873c;
+}
+
+#portfolio {
+  background-color: #93d882;
+  color: white;
+}
+
+#contact {
+  background-color: #3b873c;
+  color: white;
+}
+
+ #about-text {
+  color: white;
+}
+
+#web {
+  background-color: #755b33;
+}
+
+.fixed {
+ position: fixed;
+ width: 100%;
+ top: 0;
+ left: 0;
+ z-index: 1;
+ margin: auto;
+}
