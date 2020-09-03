@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<title>ZWashSolutions</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+		<link rel = "stylesheet" href = "public/stylesheets/portfolioStyles.css" type="text/css">
+		<script src = "public/scripts/portfolioStyles.js"></script>
+	</head>
+
+	<body>
+		<nav id = "navigation" class="navbar navbar-dark navbar-expand py-0 fixed-top">
+			<div id="navLinks">
+				<ul class="navbar-nav">
+					<li role="presentation" id = "aboutLink" class = "nav-item"><a href="#about" class="nav-link">About</a></li>
+					<li role="presentation" id = "projectsLink" class = "nav-item"><a href="#projects" id = "projectsLink" class="nav-link">Projects</a></li>
+					<li role="presentation" id = "contactLink" class = "nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+		
+		<div class="jumbotron" id="about">
+			<div class = "row" style = "padding: 30px 30px 0px 0px;">
+				<div class="col-md-4 col-12">
+					<img src="https://image.ibb.co/jOD7pw/facePic.png" alt="Zack Washington" class="img-fluid float-right selfie align-top">
+				</div>
+				<div class="col-md-8 col-12">
+					<p class="about-text">I'm Zack Washington. This portfolio has projects from old coursework algorithms to more practical fullstack applications using a variety of different languages and technologies. They all paint the image of a diverse skillset held by a flexible person.</p><br><span class="about-text">Fullstack Web Developer ~ Student</span>
+				</div>
+			</div>
+		</div>
+		
+		<div id = "content" class = "container">
+			<div class = "row" id = "about">
+				
+			</div>
+			
+			<div class = "row" id = "projects">
+				<div class = "col-12" style = "padding: 30px 30px 0px 0px;">
+					<h1 class = "text-center">Project Samples</h1>
+					<div class = container>
+						<a href = "museumofcandy.html"><img src = "public/imgs/museumofcandy.jpg" alt="Sample of a basic responsive web page" class = "float-left img-fluid col-lg-5 col-12 img-thumbnail"></a>
+						<a href = "https://drive.google.com/drive/u/0/folders/0ByKneYZ4BavafmZPVHNWTTI2UG1pbXp2MFgwWUZMY1ZhQlEzZF82cjNQcXRLb3VEcVZHR0k"><img src = "https://image.ibb.co/gVvPXG/GDrive.png" alt="Google Drive" class = "float-right img-fluid col-lg-5 col-12 img-thumbnail"></a>
+						<a href = "https://codepen.io/Zack1707/full/LeWqvm/"><img src = "https://image.ibb.co/hDzRGm/Weather_API.png" alt="Weather Forecast API" class = "float-left img-fluid col-lg-5 col-12 img-thumbnail"></a>
+						<a href = "https://codepen.io/Zack1707/full/WMQqNo/"><img src = "https://image.ibb.co/kSWzbH/Wikipedia_API.jpg" alt="Wikipedia API" class = "float-right img-fluid col-lg-5 col-12 img-thumbnail"></a>
+						<a href = "colorGame.html"><img src = "public/imgs/colorGame.jpg" alt="An RBG color guessing game with javascript and bootstrap functionality" class = "float-left img-fluid col-lg-5 col-12 img-thumbnail"></a>
+						<a href = "circles.html"><img src = "public/imgs/circles.jpg" alt="A page that demonstrates usage of the paper library" class = "float-right img-fluid col-lg-5 col-12 img-thumbnail"></a>
+						<a href = "https://pacific-river-57343.herokuapp.com/"><img src = "public/imgs/yelpCamp.png" alt="A page that demonstrates usage of the paper library" class = "float-left img-fluid col-lg-5 col-12 img-thumbnail"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	  
+		<div class = "container" id = "contact">
+			<div class = "col-xs-12" style = "padding: 30px 30px 0p 0px">
+				<h1 class = "text-center">CONTACT</h1>
+				<p class = "pull-right col-xs-6" style = "font-size: 1.5em;">I can be contacted from the form on the left. I'm more than receptive to a resume request or work inquiry.</p>
+				<form class = "form-vertical col-xs-6" action="https://formspree.io/zwashdev@gmail.com" method="POST">
+			   
+			   <div class = "form-group">
+				<label class = "control-label" for = "firstName">First Name:</label>
+				  <input name = "firstName" type = "text" class = "form-control" id = "firstName" maxlength = "20">
+			   </div>
+			   
+			   <div class = "form-group"> 
+				<label class = "control-label" for = "lastName">Last Name:</label>
+				  <input name = "lastName" type = "text" class = "form-control" id = "lastName" maxlength = "20">
+			   </div>
+				
+			   <div class = "form-group">
+				<label class = "control-label" for = "e-Mail">e-Mail:</label>
+				  <input name = "_replyto" type = "email" class = "form-control" id = "e-Mail" maxlength = "30">
+			   </div>
+			  
+			   <div class = "form-group" id="phoneNumber">
+				<label class = "control-label" for = "phoneNumber">Phone Number:</label>
+				  <input name = "phoneNumber" type = "text" id = "phoneNumber" class = "form-control" maxlength = 10 placeholder = "##########">
+			   </div>
+			   
+			   <div class = "form-group">
+				<label class = "control-label" for = "message">Message:</label>
+			 <textarea name = "message" class = "form-control" id = "message"></textarea>
+			   </div>
+					<button type="submit" class="btn btn-default">Submit</button>
+				</form>
+			</div>
+		</div>
+	  
+		<div class = "web">
+			<div class = "text-center">
+				<a href = "https://www.facebook.com/zack.washington.35"><i class="fab fa-facebook-square"></i></a>
+				<a href = "https://github.com/Zack90305"><i class="fab fa-github"></i></a>
+				<a href = "https://www.linkedin.com/in/zwashington/"><i class="fab fa-linkedin"></i></a>
+			</div>
+		</div>
+	</body>
+</html>

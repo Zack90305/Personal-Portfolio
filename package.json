@@ -1,0 +1,15 @@
+{
+  "name": "portfolio",
+  "version": "2.0.0",
+  "description": "Zack's Portfolios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Zack Washington",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

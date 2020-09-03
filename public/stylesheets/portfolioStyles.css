@@ -1,0 +1,83 @@
+body {
+  background-color: #99986F;
+}
+
+p {
+	font-size: 1.5em; 
+	font-weight: bold; 
+	font-family: Serif;
+}
+
+span {
+	font-size: 2em; 
+	font-weight: bold; 
+	font-family: Serif;
+}
+
+#navigation {
+  background-color: #755b33;
+}
+
+#about {
+  background-color: #003500;
+  /*background-color: #3b873c;*/
+}
+
+#projects {
+  background-color: #93d882;
+  color: white;
+}
+
+#contact {
+  background-color: #003500;
+  color: white;
+}
+
+.web {
+  background-color: #755b33;
+}
+
+.navbar.scrolled {
+	background-color: #755b33; 
+}
+
+.about-text {
+  color: white;
+}
+
+.selfie {
+	display inline;
+}
+
+.sample-links {
+	width: 200px;
+}
+
+.jumbotron {
+	margin-bottom: 0px;
+}
+
+.float-left {
+	padding-top: 16.75px;
+	padding-bottom: 16.75px;
+}
+
+.img-thumbnail {
+	background: #5A3F37;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2C7744, #5A3F37);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2C7744, #5A3F37); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.fab{
+	font-size: 3em;
+	color: #93d882;
+}
+
+.fixed {
+ position: fixed;
+ width: 100%;
+ top: 0;
+ left: 0;
+ z-index: 1;
+ margin: auto;
+}
