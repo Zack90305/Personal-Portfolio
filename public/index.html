@@ -24,7 +24,7 @@
 		</nav>
 		
 		<div class="jumbotron" id="about">
-			<div class = "row" style = "padding: 30px 30px 0px 0px;">
+			<div class = "row">
 				<div class="col-md-4 col-12">
 					<img src="https://image.ibb.co/jOD7pw/facePic.png" alt="Zack Washington" class="img-fluid float-right selfie align-top">
 				</div>
@@ -35,30 +35,40 @@
 		</div>
 		
 		<div id = "content" class = "container">
-			<div class = "row" id = "about">
-				
-			</div>
-			
 			<div class = "row" id = "projects">
-				<div class = "col-12" style = "padding: 30px 30px 0px 0px;">
+				<div class = "col-12">
 					<h1 class = "text-center">Project Samples</h1>
-					<div class = container>
-						<a href = "museumofcandy.html"><img src = "public/imgs/museumofcandy.jpg" alt="Sample of a basic responsive web page" class = "float-left img-fluid col-lg-5 col-12 img-thumbnail"></a>
-						<a href = "https://drive.google.com/drive/u/0/folders/0ByKneYZ4BavafmZPVHNWTTI2UG1pbXp2MFgwWUZMY1ZhQlEzZF82cjNQcXRLb3VEcVZHR0k"><img src = "https://image.ibb.co/gVvPXG/GDrive.png" alt="Google Drive" class = "float-right img-fluid col-lg-5 col-12 img-thumbnail"></a>
-						<a href = "https://codepen.io/Zack1707/full/LeWqvm/"><img src = "https://image.ibb.co/hDzRGm/Weather_API.png" alt="Weather Forecast API" class = "float-left img-fluid col-lg-5 col-12 img-thumbnail"></a>
-						<a href = "https://codepen.io/Zack1707/full/WMQqNo/"><img src = "https://image.ibb.co/kSWzbH/Wikipedia_API.jpg" alt="Wikipedia API" class = "float-right img-fluid col-lg-5 col-12 img-thumbnail"></a>
-						<a href = "colorGame.html"><img src = "public/imgs/colorGame.jpg" alt="An RBG color guessing game with javascript and bootstrap functionality" class = "float-left img-fluid col-lg-5 col-12 img-thumbnail"></a>
-						<a href = "circles.html"><img src = "public/imgs/circles.jpg" alt="A page that demonstrates usage of the paper library" class = "float-right img-fluid col-lg-5 col-12 img-thumbnail"></a>
-						<a href = "https://pacific-river-57343.herokuapp.com/"><img src = "public/imgs/yelpCamp.png" alt="A page that demonstrates usage of the paper library" class = "float-left img-fluid col-lg-5 col-12 img-thumbnail"></a>
+					<div class = "container">
+						<div class = "content float-lg-left col-lg-5 col-12">
+							<a href = "museumofcandy.html"><img src = "public/imgs/museumofcandy.jpg" alt="Sample of a basic responsive web page" class = "img-fluid img-thumbnail"></a>
+						</div>
+						<div class = "content float-lg-right col-lg-5 col-12">
+							<a href = "https://drive.google.com/drive/u/0/folders/0ByKneYZ4BavafmZPVHNWTTI2UG1pbXp2MFgwWUZMY1ZhQlEzZF82cjNQcXRLb3VEcVZHR0k"><img src = "https://image.ibb.co/gVvPXG/GDrive.png" alt="Google Drive" class = "img-thumbnail img-fluid"></a>
+						</div>
+						<div class = "content float-lg-left col-lg-5 col-12">
+							<a href = "https://codepen.io/Zack1707/full/LeWqvm/"><img src = "https://image.ibb.co/hDzRGm/Weather_API.png" alt="Weather Forecast API" class = "img-thumbnail img-fluid"></a>
+						</div>
+						<div class = "content float-lg-right col-lg-5 col-12">
+							<a href = "https://codepen.io/Zack1707/full/WMQqNo/"><img src = "https://image.ibb.co/kSWzbH/Wikipedia_API.jpg" alt="Wikipedia API" class = " img-thumbnail img-fluid"></a>
+						</div>
+						<div class = "content float-lg-left col-lg-5 col-12">
+							<a href = "colorGame.html"><img src = "public/imgs/colorGame.jpg" alt="An RBG color guessing game with javascript and bootstrap functionality" class = "img-fluid img-thumbnail"></a>
+						</div>
+						<div class = "content float-lg-right col-lg-5 col-12">
+							<a href = "circles.html"><img src = "public/imgs/circles.jpg" alt="A page that demonstrates usage of the paper library" class = "img-fluid img-thumbnail"></a>
+						</div>
+						<div class = "content float-lg-left col-lg-5 col-12">
+							<a href = "https://pacific-river-57343.herokuapp.com/"><img src = "public/imgs/yelpCamp.png" alt="A page that demonstrates usage of the paper library" class = "img-fluid img-thumbnail"></a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	  
 		<div class = "container" id = "contact">
-			<div class = "col-xs-12" style = "padding: 30px 30px 0p 0px">
+			<div class = "col-xs-12">
 				<h1 class = "text-center">CONTACT</h1>
-				<p class = "pull-right col-xs-6" style = "font-size: 1.5em;">I can be contacted from the form on the left. I'm more than receptive to a resume request or work inquiry.</p>
+				<p class = "pull-right col-xs-6">I can be contacted from the form on the left. I'm more than receptive to a resume request or work inquiry.</p>
 				<form class = "form-vertical col-xs-6" action="https://formspree.io/zwashdev@gmail.com" method="POST">
 			   
 			   <div class = "form-group">
@@ -78,14 +88,14 @@
 			  
 			   <div class = "form-group" id="phoneNumber">
 				<label class = "control-label" for = "phoneNumber">Phone Number:</label>
-				  <input name = "phoneNumber" type = "text" id = "phoneNumber" class = "form-control" maxlength = 10 placeholder = "##########">
+				  <input name = "phoneNumber" type = "tel" id = "phoneNumber" class = "form-control" maxlength = 10 placeholder = "(###)###-####">
 			   </div>
 			   
 			   <div class = "form-group">
 				<label class = "control-label" for = "message">Message:</label>
 			 <textarea name = "message" class = "form-control" id = "message"></textarea>
 			   </div>
-					<button type="submit" class="btn btn-default">Submit</button>
+					<button type="button submit" class="btn btn-block btn-success">Submit</button>
 				</form>
 			</div>
 		</div>
